@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    link(type='text/css', rel='stylesheet', href='/site.css')
+    |
+    title Hello
+  body
+    h1 Hello world!
+      p Voici la liste des titre des posts de notre blog :
+      h1 Titres:
+      if titleBlog
+        ul
+          each title in titleBlog
+            li=title
+      if contentBlog
+        h2 Contenus:
+          ul
+            each content in contentBlog
+              li=content
