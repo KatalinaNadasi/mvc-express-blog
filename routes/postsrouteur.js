@@ -13,7 +13,7 @@ postsrouteur.get('/posts', showAllPosts)
 //     } else {
 //       let titleBlog = []
 //       let contentBlog = []
-//       results.map(result => {
+//       results.map(result => {np
 //         titleBlog.push(result.title)
 //         contentBlog.push(result.content);
 //       })
