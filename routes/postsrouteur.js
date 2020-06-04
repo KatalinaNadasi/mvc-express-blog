@@ -17,7 +17,6 @@ postsrouteur.get('/posts', showAllPosts)
 //         titleBlog.push(result.title)
 //         contentBlog.push(result.content);
 //       })
-//       console.log(titleBlog, contentBlog)
 //       res.render('layout', titleBlog, contentBlog);
 //     }
 //   });
